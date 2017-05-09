@@ -105,6 +105,13 @@ section section {
     font-size: larger;
 }
 
+button:hover, button:focus {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 section .parragraph {
     padding-left: 0;
     display: flex;
